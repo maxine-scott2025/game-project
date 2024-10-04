@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://5103jyj33ag4"]
+
+[ext_resource type="Texture2D" uid="uid://c1atndchcpvq2" path="res://images/magic-potion.png" id="1_enx36"]
+
+[node name="Health posion" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(-4, -853, -348, -849, -378, -801, -270, -639, -370, -631, -402, -597, -406, -527, -386, -491, -234, -491, -230, -391, -350, -317, -452, -227, -574, -53, -606, 61, -622, 183, -622, 307, -588, 437, -532, 557, -470, 647, -370, 735, -258, 803, -120, 847, 46, 853, 214, 817, 374, 713, 512, 545, 586, 355, 598, 227, 562, -29, 446, -215, 330, -317, 198, -387, 194, -487, 346, -487, 384, -533, 386, -591, 344, -631, 252, -631, 356, -775, 340, -855)
+
+[node name="Magic-potion" type="Sprite2D" parent="."]
+position = Vector2(-6.10352e-05, -2)
+scale = Vector2(3.26562, 3.42578)
+texture = ExtResource("1_enx36")

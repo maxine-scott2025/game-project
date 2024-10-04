@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://3041h30uer0e"]
+
+[ext_resource type="Script" path="res://static_body_2d.gd" id="1_nvc2q"]
+[ext_resource type="Texture2D" uid="uid://bu825v6dey2ou" path="res://images/branch (1).png" id="2_phchv"]
+
+[node name="Branch object" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+script = ExtResource("1_nvc2q")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(195, -257, 189, -252, 170, -196, 147, -165, 120, -137, 85, -179, 73, -208, 63, -243, 52, -236, 50, -212, 3, -216, -1, -200, 56, -183, 84, -115, 72, -104, 10, -75, -67, -42, -133, 7, -155, 33, -174, 65, -189, 99, -200, 141, -202, 208, -194, 224, -176, 243, -140, 254, -119, 250, -99, 238, -79, 210, -80, 182, -80, 136, -73, 101, -67, 93, -37, 78, -10, 52, 2, 31, 3, 14, 41, -9, 87, -38, 130, -77, 173, -129, 196, -179, 205, -250)
+
+[node name="Branch(1)" type="Sprite2D" parent="."]
+position = Vector2(1, -2)
+texture = ExtResource("2_phchv")
