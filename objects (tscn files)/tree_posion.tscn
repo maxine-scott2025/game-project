@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://gefgjamq18l7"]
+
+[ext_resource type="Texture2D" uid="uid://ca6w8g3kh5g62" path="res://images/posion.png" id="1_jarc7"]
+
+[node name="Tree posion" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(-2.38419e-07, 0)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(-174, -690, -90, -724, 6, -730, 102, -718, 160, -696, 134, -534, 226, -490, 242, -460, 230, -384, 188, -292, 106, -296, 124, -222, 230, -156, 312, -96, 356, -54, 330, 116, 272, 370, 196, 704, 132, 724, -6, 740, -186, 714, -356, -38, -288, -112, -162, -188, -112, -220, -100, -294, -200, -286, -226, -358, -256, -456, -230, -494, -152, -530)
+
+[node name="Posion" type="Sprite2D" parent="."]
+position = Vector2(3, 1)
+scale = Vector2(2.82422, 3.08984)
+texture = ExtResource("1_jarc7")

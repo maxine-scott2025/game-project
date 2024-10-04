@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://ceytagj27jmfo"]
+
+[ext_resource type="Texture2D" uid="uid://bwbav1n4q4syh" path="res://images/hourglass.png" id="1_ic80l"]
+
+[node name="hourglass object" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(53, -251, -159, -250, -161, -192, -136, -189, -146, -150, -145, -105, -122, -62, -49, 2, -93, 40, -111, 60, -131, 84, -140, 110, -145, 135, -144, 163, -136, 191, -160, 195, -159, 253, 157, 254, 159, 197, 133, 195, 144, 146, 134, 98, 112, 62, 86, 36, 45, 7, 78, -19, 108, -49, 137, -88, 145, -133, 132, -189, 159, -189, 156, -254)
+
+[node name="Hourglass" type="Sprite2D" parent="."]
+position = Vector2(-2, 1)
+texture = ExtResource("1_ic80l")
